@@ -139,13 +139,8 @@ print(listkalimat)
 
 
 
+# BENCHMARK WORD
 
-
-
-
-# se
-# ke
-#
 # betah sebungkus senasib menginap mengasuh memberi membesuk mencinta mencaci mendidik mendengkur menggosok menghukum menjemput menjahit mengupas mengukus mempesona memukul menyapu menyatu menanam menukar melempar memasak kebawa keatas perhitungan perkantoran penukar penikam penjahit pendidik pemberi pembunuh pemikir pemotong penyiram penyabar pelamar pemakan
 # sebungkus
 # senasib
