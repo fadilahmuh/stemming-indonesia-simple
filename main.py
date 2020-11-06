@@ -21,7 +21,7 @@ def readstopword(namafile):
 
 
 akhiran = ["i", "an", "kan", "ku", "mu", "nya", "lah", "kah", "tah", "pun"]
-awalan = ["di","ke","se","me","be","pe", "te",]
+awalan = ["di","ke","se","me","be","pe", "te"]
 # prefix = ['meng','per','ber','ter','di','ke','se','peng']
 # suffix = ['kan','an','i']
 # infix = ['el','er','em']
