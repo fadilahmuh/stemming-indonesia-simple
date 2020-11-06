@@ -1,4 +1,5 @@
 import numpy as np
+import string
 
 def readkamus(namafile):
     text_file = open(namafile, "r")
@@ -30,9 +31,12 @@ kamus = readkamus('kata-dasar.txt')
 print("Dictionary loaded....")
 kamusstop = readkamus('StopWord.txt')
 print("Stop Word Dictionary loaded....")
-
+punctuation = set(string.punctuation)
 
 kalimat = input("Masukan kalimat : ").lower()
+kalimat = ''.join([i for i in kalimat if not i.isdigit()])
+kalimat = ''.join(ch for ch in kalimat if ch not in punctuation)
+
 listkalimat = [str(i) for i in kalimat.split()]
 kalimatdasar = []
 strkalimatdasar = ''
